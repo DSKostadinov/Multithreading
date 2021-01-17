@@ -5,7 +5,6 @@ public class FirstCreation {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                //Code that will run in  a new thread
                 System.out.println("we are now in thread "+Thread.currentThread().getName());
                 System.out.println("Current thread priority is " + Thread.currentThread().getPriority());
             }
